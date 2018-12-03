@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { User } from './user.mode';
 
 @Component({
   selector: 'app-address-card',
@@ -7,12 +8,17 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class AddressCardComponent implements OnInit {
 
-  user: any;
-  @Input('name') userName: string;
+  //user: any;
+  @Input('user') user: User;
+  isCollapsed: boolean = true;
+
 
   constructor() {
   }
 
+  toggleCollapse(){
+    this.isCollapsed=!this.isCollapsed;
+  }
   /**
    * Called when the app is fully initialized.
    * 
@@ -20,16 +26,14 @@ export class AddressCardComponent implements OnInit {
    * for name.
    */
   ngOnInit() {
+    /*
     this.user = {
-      name: this.userName,
-      title: 'Application Devleoper 1',
-      address: '130-A Saradhabali 1st Lane, Near Bijay Tower-2, Berhampur-10',
-      phone:[
-        '+918895954926',
-        '+918119061109',
-        '+918763777451'
-      ]
+      name: this.userObj.name,
+      title: this.userObj.designation,
+      address: this.userObj.address,
+      phone: this.userObj.phone
     };
+    */
   }
 
 }

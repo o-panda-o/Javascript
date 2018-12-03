@@ -1,5 +1,15 @@
 <!--Component-->
-<app-address-card name="Bibhuti Bhusan Panda"></app-address-card>
+<app-address-card [user]="user"></app-address-card>
+
+<!--Two way data binding using `ngModel` (don't forget to import it)-->
+<br/><br/><br/>
+<!--
+  Banana in a box [()]
+  () -- View to component
+  [] -- Component to view
+-->
+<input type="text" [(ngModel)]="inputText"> <br/><br/> 
+{{inputText}}
 
 <!--The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
