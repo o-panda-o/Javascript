@@ -15,7 +15,7 @@
  *  + Not ideal for CPU-intensive apps(as other clients have to wait a lot)
  */
 function sayHello(name){
-    console.log('Hello '+name);
+    console.log('Hello '+name);    
 };
 sayHello('Bibhuti');
 // It'll throw an error as it is not a browser
