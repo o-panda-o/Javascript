@@ -33,4 +33,11 @@
 /**
  * Installing debug package:
  *  + npm install debug
+ * 
+ * It writes debug according to which module we want our
+ * debug to be written
+ */
+/**
+ * Templating engines:
+ *  + PUG: npm install pug(view engine)
  */
