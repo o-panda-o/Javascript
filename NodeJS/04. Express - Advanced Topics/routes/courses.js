@@ -1,13 +1,8 @@
-/*
- -- HTTP Requests
-    + app.get();
-    + app.post();
-    + app.put();
-    + app.delete();
-*/
-const Joi=require('joi'); // Returns a class
 const express=require('express');
-const app=express();
+const Joi=require('joi'); // Returns a class for validation
+
+const router=express.Router();
+
 
 const courses=[
     {id:1, name:'Course 1'},
@@ -15,25 +10,19 @@ const courses=[
     {id:3, name:'Course 3'}
 ];
 
-// To enable working with JSON objects
-app.use(express.json()); // middleware function(middleware-middleware)
-
 /*
 ----------------GET--------------------
 */  
 
-app.get('/',(req,res) => {
-    res.send('Hello World!!!');
-});
 
 // Sometime it may happen that we may need to put all
 // of them in a separate say `courses.js` file
-app.get('/api/courses', (req,res) => {
+router.get('/', (req,res) => {
     res.send(courses);
 });
 
 // Getting course by id
-app.get('/api/courses/:id', (req,res) => {
+router.get('/:id', (req,res) => {
     // res.send(req.params.id);
     let course=courses.find( c => c.id===parseInt(req.params.id));
     if(!course){
@@ -41,17 +30,10 @@ app.get('/api/courses/:id', (req,res) => {
     }else res.send(course);
 });
 
-// Getting by multiple parameters
-app.get('/api/posts/:year/:months', (req,res) => {
-    //res.send(req.params);
-    //res.send(req.query);
-    
-});
-
 /*
 ----------------POST----------------------
 */
-app.post('/api/courses',(req,res) => {
+router.post('/',(req,res) => {
     /*
     const schema={
         name: Joi.string().min(3).required()
@@ -86,7 +68,7 @@ app.post('/api/courses',(req,res) => {
 /*
 -------------------------------PUT----------------------------
 */
-app.put('/api/courses/:id', (req,res) => {
+router.put('/:id', (req,res) => {
     // Look up the course
     // If not exists, return 404
     let course=courses.find( c => c.id===parseInt(req.params.id));
@@ -113,7 +95,7 @@ app.put('/api/courses/:id', (req,res) => {
 /*
 -------------------------DELETE------------------------
 */
-app.delete('/api/courses/:id',(req,res) => {
+router.delete('/:id',(req,res) => {
     // Look up the course
     // Not existing, return 404
     let course=courses.find( c => c.id===parseInt(req.params.id));
@@ -128,13 +110,6 @@ app.delete('/api/courses/:id',(req,res) => {
     res.send(course);
 });
 
-/*
---------------LISTENING TO THE PORT----------------------
-*/
-const port=process.env.PORT || 3000;
-app.listen(port, () => {
-    console.log(`Listening on port ${port}...`);
-})
 
 /*
 ---------------FUNCTION TO VALIDATE COURSE---------------------
@@ -145,3 +120,5 @@ function validateCourse(course){
     };
     return Joi.validate(course,schema);    
 }
+
+module.exports=router;
