@@ -13,3 +13,9 @@ console.log(typeof myArray);
 myArray["name"]="Bibhuti"; // doesn't change the length so chose a number instead
 console.log(myArray);// although it adds the value
 console.log(myArray["length"]);
+
+// array methods
+myArray.push('A','B','C');
+console.log(myArray);
+myArray.pop();
+console.log(myArray);
