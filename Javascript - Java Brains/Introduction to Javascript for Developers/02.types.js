@@ -1,9 +1,11 @@
 // Number
 var a=10;
 console.log(a);
-var num=10.777;
-console.log(num);
+let num='10.777';
+console.log(parseFloat(num));
 console.log(parseInt(num));
+console.log(parseFloat(num).toFixed(3));
+console.log(parseFloat(num).toFixed(1));
 
 // String(there is no character in Javascript)
 var helloWorld="Hello World!";
