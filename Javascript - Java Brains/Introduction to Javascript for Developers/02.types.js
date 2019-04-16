@@ -1,6 +1,9 @@
 // Number
 var a=10;
 console.log(a);
+var num=10.777;
+console.log(num);
+console.log(parseInt(num));
 
 // String(there is no character in Javascript)
 var helloWorld="Hello World!";
