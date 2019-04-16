@@ -11,9 +11,10 @@ console.log(parseFloat(num).toFixed(1));
 var helloWorld="Hello World!";
 console.log(helloWorld);
 
-// Boolean 
+// Boolean(true or false)
 var ok=true;
 console.log(ok);
+console.log('Looking into the behaviour of Boolean function '+Boolean(!ok));
 
 // No strong typing, so no error
 a="Weak or loose typing of JavaScript feature";

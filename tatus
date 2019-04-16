@@ -1,0 +1,197 @@
+[33mcommit 52351395009f1371d99307855b58e871912edf35[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Bibhuti Bhusan Panda <bibhuti.bhusan@vedantu.com>
+Date:   Tue Apr 16 21:08:18 2019 +0530
+
+    Examples about weird behaviour of Javascript
+
+[33mcommit 3a26ab182a29a12cc7129b845533a751e613dd62[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bibhuti Bhusan Panda <bibhuti.bhusan@vedantu.com>
+Date:   Tue Apr 16 21:01:44 2019 +0530
+
+    Added let as a part of ES6 standard and also added rounding up methods by taking care of real use of parse method.
+
+[33mcommit 4bddf6ae66dec13ed4fa13be79469f12c8cccabb[m
+Author: Bibhuti Bhusan Panda <bibhuti.bhusan@vedantu.com>
+Date:   Tue Apr 16 20:56:51 2019 +0530
+
+    Added a little details about numbers
+
+[33mcommit f760ef9243e5db73b0aceb6835fb3fc22485d668[m
+Author: Bibhuti Bhusan Panda <bibhuti.bhusan@vedantu.com>
+Date:   Tue Apr 16 20:54:45 2019 +0530
+
+    Adding string operation
+
+[33mcommit a0ebfccf7fcfa0304b10b486be008bcf5bf47561[m
+Author: Bibhuti Bhusan Panda <bibhuti.bhusan@vedantu.com>
+Date:   Tue Apr 16 20:43:16 2019 +0530
+
+    ES6 string changes
+
+[33mcommit 9d9fca52425bdf4498f2c03410e108e2278cd1a8[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 11 21:02:47 2018 +0530
+
+    Angular & JS
+
+[33mcommit 4f4857a362fdc57bc705851608087b5d6dbfa050[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 10 23:03:40 2018 +0530
+
+    Angular 6
+
+[33mcommit 62cb2448e81aad8b15c678fbd2374f6e148a4ead[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 10 23:01:23 2018 +0530
+
+    project
+
+[33mcommit f115a2a28595934fce8a4c1ae9c0c95baed0969b[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 10 22:59:32 2018 +0530
+
+    TypeScript
+
+[33mcommit 1ecbaacf71887147cdc4e243d836b65d919650e8[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sun Dec 9 21:31:32 2018 +0530
+
+    Mongo Data Validation(Assignment Pending)
+
+[33mcommit ad0869fa0bc7670d3a2ad90d787d03c994c25243[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sun Dec 9 14:36:08 2018 +0530
+
+    06. CRUD operation with mongo db
+
+[33mcommit 1b7a18a31491614a0b0ffb05b52cf2857ff5a958[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Fri Dec 7 01:48:22 2018 +0530
+
+    Javascript Advance
+
+[33mcommit 1e0fe42d9f04660842c4f183fcae8b1f842372fe[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Thu Dec 6 20:27:48 2018 +0530
+
+    Advanced express topics
+
+[33mcommit ee76610b906ba464262d4954a9cc4ac4eb8cf944[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Wed Dec 5 22:51:05 2018 +0530
+
+    Rest API and other naming changed
+
+[33mcommit 2754590a5f750bfd82a658395db8eb495c7dec37[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 4 23:12:30 2018 +0530
+
+    Delete 02.Node Package Manager
+
+[33mcommit 54f8d300665c536fac9ac211a0e98609127da153[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 4 23:12:24 2018 +0530
+
+    npm all
+
+[33mcommit 86dc2621f7c30508340289ff41797eed7fb334f5[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 4 23:11:32 2018 +0530
+
+    npm
+
+[33mcommit 7edfeb2681e7cb83fcc0b54876134997db11ec87[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 4 23:06:46 2018 +0530
+
+    test
+
+[33mcommit 265af3da10f2fd3b11ae59affda064fd9d414dff[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 4 23:06:01 2018 +0530
+
+    Create 02.Node Package Manager
+
+[33mcommit d9542c96993bc644393aac72489444fc332ba303[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Tue Dec 4 23:04:49 2018 +0530
+
+    Coding With Mosh
+
+[33mcommit c91bb44882db47503d8733907a25b596f7e06ee8[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 3 21:05:12 2018 +0530
+
+    routing-intro
+
+[33mcommit fd7ae952f01d16843261ff49585bbf4804eae91f[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 3 17:48:18 2018 +0530
+
+    third-project
+
+[33mcommit 7255514757b93503d3c81816cf81a51ec459c15d[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 3 15:46:12 2018 +0530
+
+    Second Project Completed
+
+[33mcommit 28389ccdb5d0b10cff5d0e1d35b195d92cf32d5d[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Dec 3 00:02:18 2018 +0530
+
+    second-project(to be continued)
+
+[33mcommit 6ef9cb0fa89f449faa13c9c4297b12f5e86fd9eb[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sun Dec 2 22:42:38 2018 +0530
+
+    first-project
+
+[33mcommit 612b8f356f4ea2e26b8e8492dfc776ad62df9884[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sun Dec 2 15:10:29 2018 +0530
+
+    Objects and Prototypes Completed
+
+[33mcommit 1b054fd92c4b895b8d3edeaaa2c2fbe384e689f1[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sun Dec 2 01:36:29 2018 +0530
+
+    Scopes and Closure In-Depth
+
+[33mcommit a6b739c1ecccc330bb0ddca8844bfecf3e83d691[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sat Dec 1 21:34:49 2018 +0530
+
+    Corrected Mistake
+
+[33mcommit 41873a8195e864e1e20d6d1f0a1b082aab4d9aa9[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sat Dec 1 21:31:41 2018 +0530
+
+    Folder created
+
+[33mcommit 2100c2e405cd175186a56c6a51d1170b72b9f271[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Sat Dec 1 20:54:07 2018 +0530
+
+    Basics Completed
+
+[33mcommit 28d4f4c78a868955dd177b943814d1745b387466[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Wed Nov 28 20:04:04 2018 +0530
+
+    Initial Commit
+
+[33mcommit 4a2d3a57b5504378b98ab42b89dd4818f08a31fd[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Nov 26 21:06:28 2018 +0530
+
+    Introduction
+
+[33mcommit cc6227583475072ee79f5134a6001af2bbfccb1e[m
+Author: o_panda_o <emailofpanda@yahoo.com>
+Date:   Mon Nov 26 20:07:54 2018 +0530
+
+    Initial commit
