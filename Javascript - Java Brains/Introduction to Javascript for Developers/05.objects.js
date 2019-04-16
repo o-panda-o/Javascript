@@ -22,12 +22,13 @@ console.log(myObj);
 
 console.log("The number property is "+myObj.prop2);
 
+// This can also work without having quotes in keys
 var newObj={
     "firstName":"Bibhuti",
     "lastName":"Panda",
     "details":{
-        "age":"23",
-        "gender":"male"
+        age:"23",
+        gender:"male"
     }
 };
 console.log(newObj);
@@ -37,6 +38,9 @@ console.log("Accessing my middle name which I haven't defined gives result "+new
 console.log(newObj.details.age);
 newObj.details.religion="hindu";
 console.log(newObj);
+console.log(Object.keys(newObj)); // Printing all keys 
+console.log(Object.values(newObj)); // Printing all values
+
 
 // Deleting properties
 delete newObj.details; // better than newObj.details = undefined
