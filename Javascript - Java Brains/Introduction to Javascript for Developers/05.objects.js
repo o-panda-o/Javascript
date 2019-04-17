@@ -53,5 +53,8 @@ let obj={
 };
 let obj1=obj;
 obj1.tag="XYZ Tag";
+let obj2=Object.assign({},obj);
+obj2.tag2="XYZ Tag 2";
 console.log(obj);
 console.log(obj1);
+console.log(obj2);
