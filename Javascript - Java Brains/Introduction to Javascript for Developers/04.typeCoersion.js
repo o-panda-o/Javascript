@@ -1,6 +1,6 @@
 /**
  * '=='  -> they don't take care of types
- * '===' -> they does take care of types
+ * '==='/'!==' -> they does take care of types
  */
 if(1=="1"){
     console.log("Values are equal but can't be assured that they are of same type");
