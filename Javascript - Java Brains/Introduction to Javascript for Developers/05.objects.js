@@ -46,3 +46,12 @@ console.log(Object.values(newObj)); // Printing all values
 delete newObj.details; // better than newObj.details = undefined
 console.log(newObj);
 // Note: Dots and brackets can be used interchangably and also together
+
+// Objects are pass-by-reference
+let obj={
+    company:"XYZ"
+};
+let obj1=obj;
+obj1.tag="XYZ Tag";
+console.log(obj);
+console.log(obj1);
