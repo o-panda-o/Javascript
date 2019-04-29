@@ -10,6 +10,7 @@ import MouseClick from './components/06.functionClick';
 import EventBinding from './components/07.eventBind';
 import ParentComponent from './components/08.methodsAsProps';
 import UserGreeting from './components/09.conditionalRendering';
+import NameList from './components/10.listRendering';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <MouseClick></MouseClick> */}
       {/* <EventBinding /> */}
       {/* <ParentComponent /> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      <NameList />
     </div>
   );
 }
