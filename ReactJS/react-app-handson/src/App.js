@@ -9,6 +9,7 @@ import {KnowDesignation,KnowExpectedDesignation} from './components/05.destructu
 import MouseClick from './components/06.functionClick';
 import EventBinding from './components/07.eventBind';
 import ParentComponent from './components/08.methodsAsProps';
+import UserGreeting from './components/09.conditionalRendering';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <KnowExpectedDesignation name="Bibhuti" designation="Full-stack Engineer" /> */}
       {/* <MouseClick></MouseClick> */}
       {/* <EventBinding /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <UserGreeting />
     </div>
   );
 }
