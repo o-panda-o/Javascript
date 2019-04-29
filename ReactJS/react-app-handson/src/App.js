@@ -7,6 +7,7 @@ import Message from './components/03.state'
 import Counter from './components/04.setState'
 import {KnowDesignation,KnowExpectedDesignation} from './components/05.destructuringInFunctionalComponent'
 import MouseClick from './components/06.functionClick';
+import EventBinding from './components/07.eventBind';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Counter /> */}
       {/* <KnowDesignation name="Bibhuti" designation="Backend Engineer" /> */}
       {/* <KnowExpectedDesignation name="Bibhuti" designation="Full-stack Engineer" /> */}
-      <MouseClick></MouseClick>
+      {/* <MouseClick></MouseClick> */}
+      <EventBinding />
     </div>
   );
 }
