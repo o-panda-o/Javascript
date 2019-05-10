@@ -14,6 +14,8 @@ import NameList from './components/10.listRendering';
 import Stylesheets from './components/11.stylesheets';
 import Form from './components/12.Form';
 import LifeCycleA from './components/14.LifeCycleA';
+import FragmentDemo from './components/15.fragmentDemo';
+import Table from './components/15.table';
 
 function App() {
   return (
@@ -35,7 +37,9 @@ function App() {
       {/* <NameList /> */}
       {/* <Stylesheets primary={true}/> */}
       {/* <Form /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      {/* <FragmentDemo /> */}
+      <Table /> 
     </div>
   );
 }
