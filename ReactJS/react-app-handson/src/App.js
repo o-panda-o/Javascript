@@ -11,6 +11,8 @@ import EventBinding from './components/07.eventBind';
 import ParentComponent from './components/08.methodsAsProps';
 import UserGreeting from './components/09.conditionalRendering';
 import NameList from './components/10.listRendering';
+import Stylesheets from './components/11.stylesheets';
+import Form from './components/12.Form';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <EventBinding /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <Stylesheets primary={true}/> */}
+      <Form />
     </div>
   );
 }
