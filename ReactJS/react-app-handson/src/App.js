@@ -19,6 +19,7 @@ import Table from './components/15.table';
 import PureComp from './components/16.PureComponent';
 import ParentComp from './components/16.ParentComponent'
 import RefsDemo from './components/18.RefsDemo';
+import FocusInput from './components/19.FocusInput';
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <FragmentDemo /> */}
       {/* <Table />  */}
       {/* <ParentComp /> */}
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      <FocusInput />
     </div>
   );
 }
