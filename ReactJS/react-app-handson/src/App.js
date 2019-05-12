@@ -18,6 +18,7 @@ import FragmentDemo from './components/15.fragmentDemo';
 import Table from './components/15.table';
 import PureComp from './components/16.PureComponent';
 import ParentComp from './components/16.ParentComponent'
+import RefsDemo from './components/18.RefsDemo';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <LifeCycleA /> */}
       {/* <FragmentDemo /> */}
       {/* <Table />  */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      <RefsDemo />
     </div>
   );
 }
