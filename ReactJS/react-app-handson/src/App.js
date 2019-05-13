@@ -21,6 +21,7 @@ import ParentComp from './components/16.ParentComponent'
 import RefsDemo from './components/18.RefsDemo';
 import FocusInput from './components/19.FocusInput';
 import FRParentInput from './components/20.forwardRefParentInput';
+import PortalDemo from './components/21.portalDemo';
 
 function App() {
   return (
@@ -48,7 +49,8 @@ function App() {
       {/* <ParentComp /> */}
       {/* <RefsDemo /> */}
       {/* <FocusInput /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+      <PortalDemo />
     </div>
   );
 }
