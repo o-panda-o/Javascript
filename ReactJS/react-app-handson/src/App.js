@@ -86,9 +86,12 @@ function App() {
       */}
       
       {/* Step 2: Provide a context value */}
+      {/* 
       <UserProvider value="Bibhuti">
         <ComponentC />
-      </UserProvider>
+      </UserProvider> 
+      */}
+      
     </div>
   );
 }
