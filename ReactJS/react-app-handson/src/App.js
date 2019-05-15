@@ -29,6 +29,8 @@ import HoverCounter from './components/23.hoverCounter';
 import ClickCounterProps from './components/24.clickCounterProps';
 import HoverCounterProps from './components/24.hoverCounterProps';
 import CounterProp from './components/24.counter';
+import ComponentC from './components/25.componentC';
+import { UserProvider } from './components/25.userContext';
 function App() {
   return (
     <div className="App">
@@ -70,6 +72,7 @@ function App() {
       {/* <HoverCounter /> */}
       {/* <ClickCounterProps /> */}
       {/* <HoverCounterProps /> */}
+      {/* 
       <CounterProp 
         render={(count,incrementCount)=>(
           <ClickCounterProps count={count} incrementCount={incrementCount} />
@@ -79,7 +82,13 @@ function App() {
         render={(count,incrementCount)=>(
           <HoverCounterProps count={count} incrementCount={incrementCount} />
         )} 
-      />
+      /> 
+      */}
+      
+      {/* Step 2: Provide a context value */}
+      <UserProvider value="Bibhuti">
+        <ComponentC />
+      </UserProvider>
     </div>
   );
 }
