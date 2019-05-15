@@ -22,7 +22,10 @@ const withCounter=(WrappedComponent,incrementNumber)=>{
             })
         }
         render(){
-            const count=this.state.count
+            /**
+             * Destructuring doesn't work
+             */
+            const count=this.state.count 
             // The props is passed to the HOC but not to the component which is wrapped
             // We need to use the `spread operator` to pass down the remaining props to the 
             // `WrappedComponent`
