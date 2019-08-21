@@ -9,6 +9,8 @@
  *  + Default argument
  *  + The `arguments` argument
  */
+
+ // Function declaration
 function sayHello(firstName,lastName){
     console.log("Hello "+firstName+" "+lastName);
 }
@@ -31,6 +33,7 @@ console.log(add());
 /**
  * Function as a value
  */
+// function expression
 var multiply=function multiplication(a,b){
     return a*b;
 }
@@ -64,3 +67,8 @@ details.greeting=function(){
 
 console.log(details);
 details.greeting();
+
+// IIFE(Immidiately Invokable Function Expression)
+(function(name){
+    console.log(`IIFE ran by ${name}`);
+})('Bibhuti');

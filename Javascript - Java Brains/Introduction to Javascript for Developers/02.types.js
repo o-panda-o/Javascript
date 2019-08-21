@@ -32,8 +32,25 @@ console.log(b);
 b=null;
 console.log(b);
 
+// 'Symbol'
+const sym=Symbol();
+console.log(sym);
+
 /**
  * Difference between `undefined` and `null`
  *      + `undefined` -- nothing is there
  *      + `null` -- something is there
  */
+
+ /**
+  * Primitive Data Types:
+  * - Stored directly in the location of variable access
+  * - Stored on the stack
+  * -  String, Number, Boolean, Null, Undefined, Symbol(ES6)
+  * 
+  * Reference Data Type:
+  * - Accessed by reference
+  * - Object that are stored on the heap
+  * - A pointer to location on memory
+  * - Ex: Arrays, Object Literals, Functions, Dates, etc.
+  */

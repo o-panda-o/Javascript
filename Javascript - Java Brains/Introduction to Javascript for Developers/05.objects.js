@@ -26,13 +26,18 @@ console.log("The number property is "+myObj.prop2);
 var newObj={
     "firstName":"Bibhuti",
     "lastName":"Panda",
+    "birthYear":"1995",
     "details":{
         age:"23",
         gender:"male"
+    },
+    getBirthYear:function(){
+        return this.birthYear;
     }
 };
 console.log(newObj);
 console.log("Accessing my middle name which I haven't defined gives result "+newObj["middleName"]);
+console.log("Birth year is "+newObj.getBirthYear());
 
 // Accessing data of inner objects
 console.log(newObj.details.age);
@@ -58,3 +63,22 @@ obj2.tag2="XYZ Tag 2";
 console.log(obj);
 console.log(obj1);
 console.log(obj2);
+
+/**
+ * Math Object
+ */
+val = Math.PI;
+val = Math.E;
+val = Math.round(2.4);
+val = Math.ceil(2.4);
+val = Math.floor(2.8);
+val = Math.sqrt(64);
+val = Math.abs(-3);
+val = Math.pow(8, 2);
+val = Math.min(2,33,4,1,55,6,3,-2);
+val = Math.max(2,33,4,1,55,6,3,-2);
+val = Math.random();
+
+val = Math.floor(Math.random() * 20 + 1);
+
+console.log(val);

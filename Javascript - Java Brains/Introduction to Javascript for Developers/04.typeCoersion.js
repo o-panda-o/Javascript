@@ -20,3 +20,10 @@ if(null || undefined || 0  || false){
 }else {
     console.log("0 or null or undefined or false passed in `if` statement");
 }
+
+/**
+ * Type Conversion:(can use wrapper or methods)
+ *  - String() or .toString()
+ *  - Number() or parseInt() or parseFloat()
+ *  - Also .fixed() can do wonders
+ */
