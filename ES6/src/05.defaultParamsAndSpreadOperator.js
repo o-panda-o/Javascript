@@ -17,4 +17,4 @@ function test(){
 // ES5 way
 test.apply(null,args);
 // ES6
-test(...args,...more_args);
+test(...more_args,...args);
