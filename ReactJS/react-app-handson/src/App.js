@@ -34,7 +34,7 @@ import { UserProvider } from './components/25.userContext';
 function App() {
   return (
     <div className="App">
-      {/* <Greet /> */}
+      <Greet name="Bibhuti"/>
       {/* 
       <Welcome name="Bibhuti" role="Backend Engineer">
         <p>The technologies I'm working on are Java,MongoDB</p>
