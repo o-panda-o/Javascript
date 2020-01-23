@@ -60,3 +60,11 @@ export class EventBinding extends Component {
 export default EventBinding
 
 // Use mostly approach number 3 or 4
+
+/**
+ * Handling Events:
+ *  - Handling events with React elements is very similar to handling events on
+ *    DOM elements. There are some syntactic differences:
+ *      1. React events are named using camelCase, rather than lowercase.
+ *      2. With JSX you pass a function as the event handler, rather than a string.
+ */

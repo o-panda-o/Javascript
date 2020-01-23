@@ -55,3 +55,20 @@ class Counter extends Component {
 }
 
 export default Counter
+
+/**
+ * + Don't modify states directly:(Only place we directly modify the state directly
+ *   is constructor. Changing it directly is not going to render.)
+ *      - this.state.comment = 'Hello'; // Wrong
+ *      - this.setState({comment: 'Hello'}); // Correct
+ * 
+ * + State Updates may be Asynchronous:
+ *      - React may batch multiple setState() for performance reason and in turn update
+ *        this.state and this.prop asynchronously.
+ *      - Wrong: this.setState({counter: this.state.counter+this.props.counter})
+ *      - Correct: this.setState((state,props)=>({counter:state.counter+props.counter}))
+ * + State updates are merged
+ * + State is often called local or encapsulated. It is not accessible to any component
+ *   other than that owns it. We've to send it via props if we want to make it accessible
+ *   to other components.
+ */

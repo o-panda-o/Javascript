@@ -8,7 +8,7 @@
  */
 
 /**
- * A set is an object that is privately maintained inside a component.
+ * A state is an object that is privately maintained inside a component.
  */
 import React,{Component} from "react"
 
@@ -28,6 +28,10 @@ class Message extends Component{
         })
     }
 
+    /**
+     * This way of invoking method on click is bad design because everytime the button
+     * is clicked it simply invokes a new instance of method and uses memory unnecessarily.
+     */
     render(){
         return(
             <div>

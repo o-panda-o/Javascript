@@ -34,7 +34,7 @@ import { UserProvider } from './components/25.userContext';
 function App() {
   return (
     <div className="App">
-      <Greet name="Bibhuti"/>
+      {/* <Greet name="Bibhuti"/> */}
       {/* 
       <Welcome name="Bibhuti" role="Backend Engineer">
         <p>The technologies I'm working on are Java,MongoDB</p>
@@ -46,7 +46,7 @@ function App() {
       {/* <KnowExpectedDesignation name="Bibhuti" designation="Full-stack Engineer" /> */}
       {/* <MouseClick></MouseClick> */}
       {/* <EventBinding /> */}
-      {/* <ParentComponent /> */}
+      <ParentComponent />
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
       {/* <Stylesheets primary={true}/> */}
