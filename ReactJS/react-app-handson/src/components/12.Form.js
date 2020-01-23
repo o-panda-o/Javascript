@@ -84,3 +84,10 @@ class Form extends Component {
 }
 
 export default Form
+
+/**
+ * Note: 
+ *  - You can pass an array into the value attribute, allowing you to select multiple 
+ *    options in a select tag
+ *      ~ <select multiple={true} value={['B', 'C']}>
+ */

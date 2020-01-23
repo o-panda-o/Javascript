@@ -31,6 +31,10 @@ import HoverCounterProps from './components/24.hoverCounterProps';
 import CounterProp from './components/24.counter';
 import ComponentC from './components/25.componentC';
 import { UserProvider } from './components/25.userContext';
+import Calculator from './components/26.LiftingStateUp';
+import { SplitPaneComponent, WelcomeDialog } from './components/27.CompositionVsInheritance_Containment';
+import SignUpDialog from './components/27.CompositionVsInheritance_Specialization';
+
 function App() {
   return (
     <div className="App">
@@ -46,7 +50,7 @@ function App() {
       {/* <KnowExpectedDesignation name="Bibhuti" designation="Full-stack Engineer" /> */}
       {/* <MouseClick></MouseClick> */}
       {/* <EventBinding /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
       {/* <Stylesheets primary={true}/> */}
@@ -91,7 +95,10 @@ function App() {
         <ComponentC />
       </UserProvider> 
       */}
-      
+      {/* <Calculator /> */}
+      {/* <WelcomeDialog /> */}
+      {/* <SplitPaneComponent /> */}
+      {/* <SignUpDialog /> */}
     </div>
   );
 }
