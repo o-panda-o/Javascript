@@ -2,7 +2,7 @@ import React,{Component} from "react";
 
 class Welcome extends Component{
     render() {
-      const {name,role}=this.props
+      const {name,role}=this.props; // Destructuring
       return(
           <div>
             <h1>I'm {name}, am now working as {this.props.role}</h1>
