@@ -34,6 +34,7 @@ import { UserProvider } from './components/25.userContext';
 import Calculator from './components/26.LiftingStateUp';
 import { SplitPaneComponent, WelcomeDialog } from './components/27.CompositionVsInheritance_Containment';
 import SignUpDialog from './components/27.CompositionVsInheritance_Specialization';
+import CodeSplitting from './components/28.codeSplitting';
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
       {/* <WelcomeDialog /> */}
       {/* <SplitPaneComponent /> */}
       {/* <SignUpDialog /> */}
+      {/* <CodeSplitting /> */}
     </div>
   );
 }
