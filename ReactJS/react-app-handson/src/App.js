@@ -35,6 +35,7 @@ import Calculator from './components/26.LiftingStateUp';
 import { SplitPaneComponent, WelcomeDialog } from './components/27.CompositionVsInheritance_Containment';
 import SignUpDialog from './components/27.CompositionVsInheritance_Specialization';
 import CodeSplitting from './components/28.codeSplitting';
+import WhenToUseContext from './components/25.WhenToUseContext';
 
 function App() {
   return (
@@ -101,6 +102,7 @@ function App() {
       {/* <SplitPaneComponent /> */}
       {/* <SignUpDialog /> */}
       {/* <CodeSplitting /> */}
+      <WhenToUseContext />
     </div>
   );
 }
