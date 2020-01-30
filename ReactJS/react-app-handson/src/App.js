@@ -35,7 +35,10 @@ import Calculator from './components/26.LiftingStateUp';
 import { SplitPaneComponent, WelcomeDialog } from './components/27.CompositionVsInheritance_Containment';
 import SignUpDialog from './components/27.CompositionVsInheritance_Specialization';
 import CodeSplitting from './components/28.codeSplitting';
-import WhenToUseContext from './components/25.WhenToUseContext';
+import WhenToUseContext from './components/ContextAPI/01.WhenToUseContext';
+import {DirtyPage} from './components/ContextAPI/02.CanUseContext'
+import { GoodPage } from './components/ContextAPI/03.ShouldNotUseContextButThis';
+import DynamicComponentApp from './components/ContextAPI/DynamicContext/app';
 
 function App() {
   return (
@@ -102,7 +105,10 @@ function App() {
       {/* <SplitPaneComponent /> */}
       {/* <SignUpDialog /> */}
       {/* <CodeSplitting /> */}
-      <WhenToUseContext />
+      {/* <WhenToUseContext /> */}
+      {/* <DirtyPage user="Bibhuti" avatarSize="10"/> */}
+      {/* <GoodPage user="Bibhuti" avatarSize="11"/> */}
+      <DynamicComponentApp />
     </div>
   );
 }

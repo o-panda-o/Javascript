@@ -13,6 +13,7 @@ export class WhenToUseContext extends Component {
         return (
             <div>
                 <ThemeContext.Provider value="light">
+                    {/* This one is passing props which could be used using context */}
                     <Toolbar theme="dark" />
                 </ThemeContext.Provider>
             </div>
@@ -23,12 +24,14 @@ export class WhenToUseContext extends Component {
 const Toolbar=(props)=>{
     return(
         <div>
+            {/* This one is passing props which could be used using context */}
             <ThemedButton theme={props.theme}/>
         </div>
     )
 }
 
 const ThemedButton=(props)=>{    
+    // This one is passing props which could be used using context
     return <Button theme={props.theme} />    
 }
 
@@ -38,6 +41,7 @@ export class Button extends Component {
         console.log(Button.contextType);
         return (
             <div>
+                {/* This one is passing props which could be used using context */}
                 <h1>The theme is {this.props.theme} and the theme from the context is {this.context}</h1> 
                 <ThemeContext.Consumer>
                     {
