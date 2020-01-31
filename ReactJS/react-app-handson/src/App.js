@@ -39,6 +39,7 @@ import WhenToUseContext from './components/ContextAPI/01.WhenToUseContext';
 import {DirtyPage} from './components/ContextAPI/02.CanUseContext'
 import { GoodPage } from './components/ContextAPI/03.ShouldNotUseContextButThis';
 import DynamicComponentApp from './components/ContextAPI/DynamicContext/app';
+import UpdaingContextFromANestedComponent from './components/ContextAPI/UpdatingContextFromANestedComponent/app';
 
 function App() {
   return (
@@ -108,7 +109,8 @@ function App() {
       {/* <WhenToUseContext /> */}
       {/* <DirtyPage user="Bibhuti" avatarSize="10"/> */}
       {/* <GoodPage user="Bibhuti" avatarSize="11"/> */}
-      <DynamicComponentApp />
+      {/* <DynamicComponentApp /> */}
+      <UpdaingContextFromANestedComponent />
     </div>
   );
 }
