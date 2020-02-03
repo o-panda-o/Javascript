@@ -70,15 +70,15 @@ function App() {
       {/* <FocusInput /> */}
       {/* <FRParentInput /> */}
       {/* <PortalDemo /> */}
-      {/* <ErrorBoundary> */}
-        {/* <Hero heroName="Batman" /> */}
-      {/* </ErrorBoundary> */}
-      {/* <ErrorBoundary> */}
-        {/* <Hero heroName="Superman" /> */}
-      {/* </ErrorBoundary> */}
-      {/* <ErrorBoundary> */}
-        {/* <Hero heroName="Joker" /> */}
-      {/* </ErrorBoundary> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary> */}
       {/* <ClickCounter name='Button' /> */}
       {/* <HoverCounter /> */}
       {/* <ClickCounterProps /> */}
@@ -112,7 +112,7 @@ function App() {
       {/* <GoodPage user="Bibhuti" avatarSize="11"/> */}
       {/* <DynamicComponentApp /> */}
       {/* <UpdaingContextFromANestedComponent /> */}
-      <ConsumingMultipleContexts signedInUser="Bibhuti" theme="dark"/>
+      {/* <ConsumingMultipleContexts signedInUser="Bibhuti" theme="dark"/> */}
     </div>
   );
 }
