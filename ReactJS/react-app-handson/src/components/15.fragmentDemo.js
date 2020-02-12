@@ -10,3 +10,10 @@ function FragmentDemo() {
 }
 
 export default FragmentDemo
+
+/**
+ * Fragments:
+ *  - A common pattern in react is for a component to return multiple
+ *   elements. Fragments let you group a list of children without adding 
+ *   extra nodes to DOM.
+ */

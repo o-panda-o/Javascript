@@ -3,7 +3,7 @@ import React from 'react'
 function Columns() {
     const names=['Bibhuti','Bhusan','Bonty']
     return (
-        // One more way of coding react fragement
+        // One more way of coding react fragement(keyed fragements)
         <>
         {
             names.map((name,index)=>(
