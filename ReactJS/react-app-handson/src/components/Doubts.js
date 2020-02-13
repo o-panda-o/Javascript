@@ -5,3 +5,4 @@
 // Object as props not taking in react
 // Use of `className.contextType`
 // Study `refs` at last
+// Optimizing performance in left over(to be studied after refs)
