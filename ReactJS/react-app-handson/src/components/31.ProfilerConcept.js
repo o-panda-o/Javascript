@@ -1,0 +1,12 @@
+/**
+ * Profiler:
+ *  + The Profiler measures how often a React application renders and what
+ *    the 'cost' of rendering is. Its purpose is to help identify parts of an 
+ *    application that are slow and may benefit from 'optimization such as
+ *    memorization'.
+ *  + Note:
+ *      - Profiling adds some additional overhead, so 
+ *        `it is disabled in the production build`.
+ *      - To opt into production profiling, React provides a special production
+ *        build with profiling enabled.
+ */
