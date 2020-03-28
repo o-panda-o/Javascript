@@ -21,6 +21,7 @@ const store = createStore(
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* This store is accessible along all the components */}
     <Provider store={store}> 
       <App />
     </Provider>
